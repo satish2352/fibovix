@@ -15,7 +15,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,600,700" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
 	<!-- CSS -->
-	<link rel="stylesheet" href="{{ asset('vendors/styles/style.css')}}">
+	<link rel="stylesheet" href="{{ asset('admin/vendors/styles/style.css')}}">
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<style type="text/css">
 		.card-shadow {
@@ -74,7 +74,7 @@
                 </center>
                 <br>
 		<div class="login-box bg-white box-shadow pd-30 border-radius-5 card card-shadow">
-			<img src="{{ asset('vendors/img/rpapilot_logo.png')}}" alt="login" class="login-img">
+			<img src="{{ asset('admin/vendors/img/rpapilot_logo.png')}}" alt="login" class="login-img">
 			<h2 class="text-center mb-30">Admin Login</h2>
 			<form method="post" action={{route('loginadmin')}}>
 				 @csrf
@@ -117,6 +117,6 @@
 		</div>
 	</div>
 		<!-- js -->
-	<script src="{{ asset('vendors/scripts/script.js')}}"></script>
+	<script src="{{ asset('admin/vendors/scripts/script.js')}}"></script>
 </body>
 </html>

@@ -7,7 +7,7 @@
 	<title>RPA Admin</title>
 
 	<!-- Site favicon -->
-	<link rel="shortcut icon" href="{{asset('vendors/img/favicon.png')}}">
+	<link rel="shortcut icon" href="{{asset('admin/vendors/img/favicon.png')}}">
 
 	<!-- Mobile Specific Metas -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -16,13 +16,13 @@
 	<link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,600,700" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
 	<!-- CSS -->
-	<link rel="stylesheet" href="{{asset('vendors/styles/style.css')}}">
+	<link rel="stylesheet" href="{{asset('admin/vendors/styles/style.css')}}">
 	
-	<link rel="stylesheet" type="text/css" href="{{asset('src/plugins/datatables/media/css/jquery.dataTables.css')}}">
-    <link rel="stylesheet" type="text/css" href="{{asset('src/plugins/datatables/media/css/dataTables.bootstrap4.css')}}">
-    <link rel="stylesheet" type="text/css" href="{{asset('src/plugins/datatables/media/css/responsive.dataTables.css')}}">
+	<link rel="stylesheet" type="text/css" href="{{asset('admin/src/plugins/datatables/media/css/jquery.dataTables.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('admin/src/plugins/datatables/media/css/dataTables.bootstrap4.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('admin/src/plugins/datatables/media/css/responsive.dataTables.css')}}">
     
-    <link rel="stylesheet" type="text/css" href="{{asset('src/styles/rating/style.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('admin/src/styles/rating/style.css')}}">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     
     
@@ -60,7 +60,7 @@
 		<div class="header-right">
 			<div class="brand-logo">
 				<a href="{{route('dashadmin')}}">
-					<img src="{{asset('vendors/img/rpapilot_logo.png')}}" height="50px" width="80px" alt="" class="mobile-logo" >
+					<img src="{{asset('admin/vendors/img/rpapilot_logo.png')}}" height="50px" width="80px" alt="" class="mobile-logo" >
 				</a>
 			</div>
 
@@ -95,49 +95,49 @@
 							<ul>
 								<li>
 									<a href="#">
-										<img src="{{asset('vendors/images/img.jpg')}}" alt="">
+										<img src="{{asset('admin/vendors/images/img.jpg')}}" alt="">
 										<h3 class="clearfix">John Doe <span>3 mins ago</span></h3>
 										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed...</p>
 									</a>
 								</li>
 								<li>
 									<a href="#">
-										<img src="{{asset('vendors/images/img.jpg')}}" alt="">
+										<img src="{{asset('admin/vendors/images/img.jpg')}}" alt="">
 										<h3 class="clearfix">John Doe <span>3 mins ago</span></h3>
 										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed...</p>
 									</a>
 								</li>
 								<li>
 									<a href="#">
-										<img src="{{asset('vendors/images/img.jpg')}}" alt="">
+										<img src="{{asset('admin/vendors/images/img.jpg')}}" alt="">
 										<h3 class="clearfix">John Doe <span>3 mins ago</span></h3>
 										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed...</p>
 									</a>
 								</li>
 								<li>
 									<a href="#">
-										<img src="{{asset('vendors/images/img.jpg')}}" alt="">
+										<img src="{{asset('admin/vendors/images/img.jpg')}}" alt="">
 										<h3 class="clearfix">John Doe <span>3 mins ago</span></h3>
 										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed...</p>
 									</a>
 								</li>
 								<li>
 									<a href="#">
-										<img src="{{asset('vendors/images/img.jpg')}}" alt="">
+										<img src="{{asset('admin/vendors/images/img.jpg')}}" alt="">
 										<h3 class="clearfix">John Doe <span>3 mins ago</span></h3>
 										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed...</p>
 									</a>
 								</li>
 								<li>
 									<a href="#">
-										<img src="{{asset('vendors/images/img.jpg')}}" alt="">
+										<img src="{{asset('admin/vendors/images/img.jpg')}}" alt="">
 										<h3 class="clearfix">John Doe <span>3 mins ago</span></h3>
 										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed...</p>
 									</a>
 								</li>
 								<li>
 									<a href="#">
-										<img src="{{asset('vendors/images/img.jpg')}}" alt="">
+										<img src="{{asset('admin/vendors/images/img.jpg')}}" alt="">
 										<h3 class="clearfix">John Doe <span>3 mins ago</span></h3>
 										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed...</p>
 									</a>
@@ -154,7 +154,7 @@
 <div class="left-side-bar">
 		<div class="brand-logo">
 			<a href="{{route('dashadmin')}}">
-				<img src="{{asset('vendors/img/rpapilot_logo.png')}}" height="30px" width="100px" alt="">
+				<img src="{{asset('admin/vendors/img/rpapilot_logo.png')}}" height="30px" width="100px" alt="">
 			</a>
 		</div>
 		<div class="menu-block customscroll">
@@ -338,7 +338,7 @@
 					
 				
 
-					<img src="{{asset('vendors/img/rays-aviation.jpeg')}}"  style="padding: 30px 50px 50px 50px;">
+					<img src="{{asset('admin/vendors/img/rays-aviation.jpeg')}}"  style="padding: 30px 50px 50px 50px;">
 					
 				
 				</ul>

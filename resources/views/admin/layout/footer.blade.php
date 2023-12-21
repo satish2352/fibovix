@@ -7,7 +7,7 @@
         });
     </script>
 
-	<script src="{{asset('vendors/scripts/script.js')}}"></script>
+	<script src="{{asset('admin/vendors/scripts/script.js')}}"></script>
 
 	<div class="footer-wrap bg-white pd-20 mb-20 border-radius-5 box-shadow">
 		<?php $year=date("Y"); ?>
@@ -16,18 +16,18 @@
 			</div>
 	</div>
 
-<script src="{{asset('src/plugins/datatables/media/js/jquery.dataTables.min.js')}}"></script>
-        <script src="{{asset('src/plugins/datatables/media/js/dataTables.bootstrap4.js')}}"></script>
-        <script src="{{asset('src/plugins/datatables/media/js/dataTables.responsive.js')}}"></script>
-        <script src="{{asset('src/plugins/datatables/media/js/responsive.bootstrap4.js')}}"></script>
+<script src="{{asset('admin/src/plugins/datatables/media/js/jquery.dataTables.min.js')}}"></script>
+        <script src="{{asset('admin/src/plugins/datatables/media/js/dataTables.bootstrap4.js')}}"></script>
+        <script src="{{asset('admin/src/plugins/datatables/media/js/dataTables.responsive.js')}}"></script>
+        <script src="{{asset('admin/src/plugins/datatables/media/js/responsive.bootstrap4.js')}}"></script>
         <!-- buttons for Export datatable -->
-        <script src="{{asset('src/plugins/datatables/media/js/button/dataTables.buttons.js')}}"></script>
-        <script src="{{asset('src/plugins/datatables/media/js/button/buttons.bootstrap4.js')}}"></script>
-        <script src="{{asset('src/plugins/datatables/media/js/button/buttons.print.js')}}"></script>
-        <script src="{{asset('src/plugins/datatables/media/js/button/buttons.html5.js')}}"></script>
-        <script src="{{asset('src/plugins/datatables/media/js/button/buttons.flash.js')}}"></script>
-        <script src="{{asset('src/plugins/datatables/media/js/button/pdfmake.min.js')}}"></script>
-        <script src="{{asset('src/plugins/datatables/media/js/button/vfs_fonts.js')}}"></script>
+        <script src="{{asset('admin/src/plugins/datatables/media/js/button/dataTables.buttons.js')}}"></script>
+        <script src="{{asset('admin/src/plugins/datatables/media/js/button/buttons.bootstrap4.js')}}"></script>
+        <script src="{{asset('admin/src/plugins/datatables/media/js/button/buttons.print.js')}}"></script>
+        <script src="{{asset('admin/src/plugins/datatables/media/js/button/buttons.html5.js')}}"></script>
+        <script src="{{asset('admin/src/plugins/datatables/media/js/button/buttons.flash.js')}}"></script>
+        <script src="{{asset('admin/src/plugins/datatables/media/js/button/pdfmake.min.js')}}"></script>
+        <script src="{{asset('admin/src/plugins/datatables/media/js/button/vfs_fonts.js')}}"></script>
         <script>
                 $('document').ready(function(){
                         $('.data-table').DataTable({
