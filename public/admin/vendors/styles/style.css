@@ -2064,13 +2064,13 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #ffffff;
-  background-color: #ffa354;
-  border-color: #ffa354; }
+  background-color: #5c6FE9;
+  border-color: #5c6FE9; }
 
 .btn-primary:hover {
   color: #ffffff;
-  background-color: #ffa354;
-  border-color: #ffa354; }
+  background-color: #5c6FE9;
+  border-color: #5c6FE9; }
 
 .btn-primary:focus, .btn-primary.focus {
   -webkit-box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
@@ -18321,7 +18321,7 @@ textarea.form-control {
 .header-right {
   float: right;
   width: calc(100% - 250px);
-  background: #ffa354;
+  background: #5c6FE9;
   height: 70px;
   /*padding: 10px 20px;*/
   -webkit-box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.4);

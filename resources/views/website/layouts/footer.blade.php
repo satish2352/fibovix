@@ -5,7 +5,7 @@
         <div class="row justify-content-between">
 
             <div class="col-md-2  text-center">
-                <img src="{{asset('website/images/rpapilot_logo.png')}}" style=" width: 120px;">
+                <img src="{{asset('website/images/fibovix_logo.png')}}" style=" width: 120px;">
                 <!--<img src="{{asset('website/images/powered-by-rays.png')}}" style=" width: 120px;">-->
             </div>
             

@@ -13,7 +13,7 @@
 								</div>
 							</div>
 							<div class="project-info-right">
-								<span class="no text-blue weight-500 font-24"><?php $result=DB::select("SELECT * FROM `statebyadmin` where status='0'"); echo count($result); ?> </span>
+								<span class="no text-blue weight-500 font-24"> </span>
 								<p class="weight-400 font-18">Admin State</p>
 							</div>
 						</div>
@@ -37,7 +37,7 @@
 								</div>
 							</div>
 							<div class="project-info-right">
-								<span class="no text-light-green weight-500 font-24"><?php $result=DB::select("SELECT * FROM `citybyadmin` where status='0'"); echo count($result); ?> </span></span>
+								<span class="no text-light-green weight-500 font-24"> </span></span>
 								<p class="weight-400 font-18">Admin City</p>
 							</div>
 						</div>
@@ -61,7 +61,7 @@
 								</div>
 							</div>
 							<div class="project-info-right">
-								<span class="no text-light-orange weight-500 font-24"><?php $result=DB::select("SELECT * FROM `category` where status='0'"); echo count($result); ?> </span></span>
+								<span class="no text-light-orange weight-500 font-24"> </span></span>
 								<p class="weight-400 font-18">Admin Category</p>
 							</div>
 						</div>
@@ -85,7 +85,7 @@
 								</div>
 							</div>
 							<div class="project-info-right">
-								<span class="no text-light-purple weight-500 font-24"><?php $result=DB::select("SELECT * FROM `professionbyadmin` where status='0'"); echo count($result); ?> </span></span>
+								<span class="no text-light-purple weight-500 font-24"> </span></span>
 								<p class="weight-400 font-18">Admin Profession</p>
 							</div>
 						</div>
@@ -111,7 +111,7 @@
 								</div>
 							</div>
 							<div class="project-info-right">
-								<span class="no text-blue weight-500 font-24"><?php $result=DB::select("SELECT * FROM `ftoregistration` where status='0'"); echo count($result); ?> </span></span>
+								<span class="no text-blue weight-500 font-24"> </span></span>
 								<p class="weight-400 font-18">FTO </p>
 							</div>
 						</div>
@@ -135,7 +135,7 @@
 								</div>
 							</div>
 							<div class="project-info-right">
-								<span class="no text-blue weight-500 font-24"><?php $result=DB::select("SELECT * FROM `ftoinstructor` where status='0'"); echo count($result); ?> </span></span>
+								<span class="no text-blue weight-500 font-24"> </span></span>
 								<p class="weight-400 font-18">FTO Instructor</p>
 							</div>
 						</div>
@@ -159,7 +159,7 @@
 								</div>
 							</div>
 							<div class="project-info-right">
-								<span class="no text-blue weight-500 font-24"><?php $result=DB::select("SELECT * FROM `pilotregistration` where status='0'"); echo count($result); ?> </span></span>
+								<span class="no text-blue weight-500 font-24"> </span></span>
 								<p class="weight-400 font-18">Pilot</p>
 							</div>
 						</div>
@@ -174,30 +174,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-3 col-md-6 col-sm-12 mb-30">
-					<div class="bg-white pd-20 box-shadow border-radius-5 margin-5 height-100-p">
-						<div class="project-info clearfix">
-							<div class="project-info-left">
-								<div class="icon box-shadow bg-light-purple text-white">
-									<i class="fa fa-podcast"></i>
-								</div>
-							</div>
-							<div class="project-info-right">
-								<span class="no text-blue weight-500 font-24"><?php $result=DB::select("SELECT * FROM `pilotrdroneinfo` where status='0'"); echo count($result); ?> </span></span>
-								<p class="weight-400 font-18">Pilot Drone Information </p>
-							</div>
-						</div>  
-						<div class="project-info-progress">
-							<div class="row clearfix">
-								<!--<div class="col-sm-6 text-muted weight-500">Review</div>-->
-								<!--<div class="col-sm-6 text-right weight-500 font-14 text-muted">Average</div>-->
-							</div>
-							<div class="progress" style="height: 10px;">
-								<div class="progress-bar bg-light-purple progress-bar-striped progress-bar-animated" role="progressbar" style="width: 100%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-							</div>
-						</div>
-					</div>
-				</div>
+			
 			</div>
 			<div class="row clearfix progress-box">
 				<div class="col-lg-3 col-md-6 col-sm-12 mb-30">
@@ -209,7 +186,7 @@
 								</div>
 							</div>
 							<div class="project-info-right">
-								<span class="no text-blue weight-500 font-24"><?php $result=DB::select("SELECT * FROM `courses` where status='1'"); echo count($result); ?> </span></span>
+								<span class="no text-blue weight-500 font-24"> </span></span>
 								<p class="weight-400 font-18">Course Added</p>
 							</div>
 						</div>
@@ -233,7 +210,7 @@
 								</div>
 							</div>
 							<div class="project-info-right">
-								<span class="no text-blue weight-500 font-24"><?php $result=DB::select("SELECT * FROM `advertise` where status='1'"); echo count($result); ?> </span></span>
+								<span class="no text-blue weight-500 font-24"></span></span>
 								<p class="weight-400 font-18">Advertisement Added</p>
 							</div>
 						</div>
@@ -257,7 +234,7 @@
 								</div>
 							</div>
 							<div class="project-info-right">
-								<span class="no text-blue weight-500 font-24"><?php $result=DB::select("SELECT * FROM `events` where status='0'"); echo count($result); ?> </span></span>
+								<span class="no text-blue weight-500 font-24"></span></span>
 								<p class="weight-400 font-18">Event Added</p>
 							</div>
 						</div>
@@ -272,30 +249,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-3 col-md-6 col-sm-12 mb-30">
-					<div class="bg-white pd-20 box-shadow border-radius-5 margin-5 height-100-p">
-						<div class="project-info clearfix">
-							<div class="project-info-left">
-								<div class="icon box-shadow bg-light-purple text-white">
-									<i class="fa fa-podcast"></i>
-								</div>
-							</div>
-							<div class="project-info-right">
-								<span class="no text-blue weight-500 font-24"><?php $result=DB::select("SELECT * FROM `news` where status='0'"); echo count($result); ?> </span></span>
-								<p class="weight-400 font-18">News Added</p>
-							</div>
-						</div>
-						<div class="project-info-progress">
-							<div class="row clearfix">
-								<!--<div class="col-sm-6 text-muted weight-500">Review</div>-->
-								<!--<div class="col-sm-6 text-right weight-500 font-14 text-muted">Average</div>-->
-							</div>
-							<div class="progress" style="height: 10px;">
-								<div class="progress-bar bg-light-purple progress-bar-striped progress-bar-animated" role="progressbar" style="width: 100%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-							</div>
-						</div>
-					</div>
-				</div>
+				
 			</div>
 
 		

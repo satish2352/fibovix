@@ -492,7 +492,7 @@ button.slick-prev, button.slick-prev:hover {
     
     
     <a href="{{url('index')}}" class="navbar-brand order-1 order-md-1 b-sidebar-trigger" style="float:left">
-        <img src="{{asset('website/images/rpapilot_logo.png')}}" style="width: 80px;">
+        <img src="{{asset('website/images/fibovix_logo.png')}}" style="width: 80px;">
     </a>
 
 

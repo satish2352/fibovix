@@ -16,7 +16,7 @@
                         <tbody>
                             <tr>
                               <td style="background-color:#f6f8fa;padding:12px;border-bottom:1px solid #ececec;align-items: center;text-align: center;display: block;margin: auto;" bgcolor="#F6F8FA">
-                                 <a href="http://rpapilot.com/"><img src="http://rpapilot.com/rpa/public/images/rpapilot_logo.png" width="200" align="center"></a>
+                                 <a href="http://rpapilot.com/"><img src="http://rpapilot.com/rpa/public/images/fibovix_logo.png" width="200" align="center"></a>
                               </td>
                             </tr>
                             <tr>
