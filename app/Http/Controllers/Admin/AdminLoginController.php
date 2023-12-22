@@ -21,8 +21,9 @@ class AdminLoginController extends Controller
    		$result=$this->service->validateAdminLogin($req,$uname,$pass);
          if($result)
          {
+
             return redirect('dashadmin');
-            
+
          }
          else
          {

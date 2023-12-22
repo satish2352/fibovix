@@ -1,5 +1,6 @@
 {{-- <hr class="line"> --}}
 
+<<<<<<< HEAD
 {{-- footer --}}
 <footer>
   <img src="" style="" alt="">
@@ -8,6 +9,40 @@
     <div class="container-fluid">
       <div class="container-fluid">
         <p id="corn">
+=======
+            <div class="col-md-2  text-center">
+                <img src="{{asset('website/images/fibovix_logo.png')}}" style=" width: 120px;">
+                <!--<img src="{{asset('website/images/powered-by-rays.png')}}" style=" width: 120px;">-->
+            </div>
+            
+            <div class="col-md-2">
+                <h4>RECOGNITION</h4>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item  border-0 p-1"><a href="{{asset('website/rpa_recognization.pdf')}}" target="_blank">Certificate Of Recognition</a></li>
+                    <li class="list-group-item  border-0 p-1"><a href="{{asset('website/Certificate_of_LLP_Incorporation.pdf')}}" target="_blank">Certificate Of LLP Incorporation</a></li>
+                    <li class="list-group-item  border-0 p-1"><a href="{{asset('website/RAYS_UDYOG_AADHAR_NUMBER.pdf')}}" target="_blank">RAYS Udyog Aadhar Number</a></li>
+                   
+                </ul>
+            </div>
+            
+            <div class="col-md-2">
+                <h4>Contact Us</h4>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item  border-0 p-1"><a href="{{url('carrier')}}">Career</a></li>
+                    <!--<li class="list-group-item  border-0 p-1"><a href="">Affiliate</a></li>-->
+                    <li class="list-group-item  border-0 p-1"><a href="{{url('requestcallback')}}">Request a CallBack</a></li>
+                    <!--<li class="list-group-item  border-0 p-1"><a href="">Talk to Us</a></li>-->
+                    <li class="list-group-item  border-0 p-1"><a href="{{url('reportanerror')}}">Report an Error</a></li>
+                </ul>
+            </div>
+            <div class="col-md-2">
+                <h4>Service Center</h4>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item  border-0 p-1"><a href="">Repairs</a></li>
+                    <li class="list-group-item  border-0 p-1"><a href="">Maintenance</a></li>
+                    <li class="list-group-item  border-0 p-1"><a href="">Scrap your drone</a></li>
+                </ul>
+>>>>>>> 29ca29c8ab38ed7e4be15a6d1de54c4bf2c68a51
 
         </p>
       </div>

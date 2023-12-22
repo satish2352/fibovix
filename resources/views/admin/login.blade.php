@@ -74,7 +74,7 @@
                 </center>
                 <br>
 		<div class="login-box bg-white box-shadow pd-30 border-radius-5 card card-shadow">
-			<img src="{{ asset('admin/vendors/img/rpapilot_logo.png')}}" alt="login" class="login-img">
+			<img src="{{ asset('admin/vendors/img/fibovix_logo.png')}}" alt="login" class="login-img">
 			<h2 class="text-center mb-30">Admin Login</h2>
 			<form method="post" action={{route('loginadmin')}}>
 				 @csrf
